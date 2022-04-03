@@ -1,0 +1,21 @@
+{
+  "name": "dirtminer",
+  "version": "1.0.0",
+  "description": "Minecraft Modding tool",
+  "main": "JS/index.js",
+  "repository": "https://github.com/DirtLandStudios/DirtMiner",
+  "author": "bananaboy139",
+  "license": "MIT",
+  "private": false,
+  "build": {
+    "appId": "com.electron.dirtminer"
+  },
+  "dependencies": {
+    "electron": "^18.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.14.13",
+    "typescript": "^4.6.3"
+  }
+}
